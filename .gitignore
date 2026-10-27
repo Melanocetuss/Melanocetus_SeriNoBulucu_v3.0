@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# PyInstaller derleme çıktıları (.exe GitHub Releases üzerinden paylaşılır)
+build/
+dist/
+*.spec
+
+# Paylaşım paketi (exe + kılavuz zip)
+Paylasim/
+*.zip
+
+# Editör / IDE
+.idea/
+.vscode/
+
+# Envanter verileri: gizli saha bilgisi, GitHub'a yüklenmez (klasör yapısı .gitkeep ile korunur)
+Data/*
+!Data/.gitkeep
+
+# Üretilen raporlar ve Excel kilit dosyaları
+*SeriNoRaporu.xlsx
+~$*.xlsx
+
+# İşletim sistemi
+Thumbs.db
+Desktop.ini
+.DS_Store
